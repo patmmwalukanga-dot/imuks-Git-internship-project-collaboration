@@ -1,0 +1,30 @@
+{
+  "name": "github-group-project-colaboration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patmwalukanga-dot/Github-group-project-colaboration.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/patmwalukanga-dot/Github-group-project-colaboration/issues"
+  },
+  "homepage": "https://github.com/patmwalukanga-dot/Github-group-project-colaboration#readme",
+  "dependencies": {
+    "chart.js": "^4.5.1",
+    "next": "^16.2.7",
+    "react": "^19.2.7",
+    "react-chartjs-2": "^5.3.1",
+    "react-dom": "^19.2.7"
+  }
+}
