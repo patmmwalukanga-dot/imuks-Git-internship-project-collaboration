@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "id": "1",
+      "name": "john ",
+      "category": "Security",
+      "description": "Main firewall configuration asset",
+      "status": "Active",
+      "role": "Viewer",
+      "email": "admin@greenshield.com",
+      "createdAt": "2026-06-01"
+    },
+    {
+      "id": "1781848832860",
+      "name": "michael ",
+      "category": "Compliance",
+      "description": "I love next.js",
+      "status": "Active",
+      "role": "Admin",
+      "email": "michael@gmail.com",
+      "createdAt": "2026-06-19"
+    }
+  ]
+}
