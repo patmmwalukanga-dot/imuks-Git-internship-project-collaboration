@@ -1,114 +1,36 @@
-# Imuks-Git-internship-project-collaboration
-This is an internship attactment ment to encourage collaboration and team building  
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-This repository is part of an internship attachment meant to encourage collaboration and team building.  
-It contains a **monorepo** setup with both a Next.js web app and a React Native mobile app.
+## Getting Started
 
----
+First, run the development server:
 
-## 📂 Project Structure
-repo-root/
- ├── apps/
- │    ├── web/          # Next.js app
- │    └── mobile/       # React Native app
- ├── packages/          # Shared code (components, utils, etc.)
- ├── tests/             # Centralized test configs
- ├── .github/           # Workflows and PR templates
- ├── README.md
-
-
-
----
-
-## 🚀 Getting Started
-
-### 1. Clone the repository
 ```bash
-git clone <repo-url>
-cd Imuks-Git-internship-project-collaboration
-```
-Install dependencies
-```bash
-yarn install
-```
-Run Next.js (web)
-```bash
-cd apps/web
+npm run dev
+# or
 yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
----
 
-NOTE:App runs at: http://localhost:3000
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Run React Native (mobile)
-```bash
-cd apps/mobile
-yarn start
-```
----
-Then run on emulator or device:
-```bash
-yarn android
-yarn ios
-```
----
-NOTE: If your pc is not powerfull enough for emulation or you just want to use your phone, you can connect your phone to the pc after turing on developers mode depending on which platform your own, watch some tutorials for more information.
----
-COLLABORATION RULES YOU MUST FOLLOW AT ALL TIMES
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
- No direct pushes to the main branch
-  All changes must go through a pull request
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-Tests required for new code 
- Add or update tests for every feature/fix
- CI will block merges if tests fail
+## Learn More
 
-Code review checklist
- Ensure no merge conflicts
- Follow coding standards and lint rules
- Use the PR template checklist
+To learn more about Next.js, take a look at the following resources:
 
-----
-Testing
- Web(Next.js)
- ```bash
- cd apps/web
-yarn test
-```
-Mobile (React Native):
-```bash
-cd apps/mobile
-yarn test
-```
-Branch Protection
-The Main branch is protected 
-Requires PR approval and passing status checks before merge
-Force pushes and deletions are blocked
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
----
-License
-his project is licensed under the MIT License
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### 📌 How to Add This
-1. On GitHub, go to your repo.  
-2. Click **Add file → Create new file**.  
-3. Name it `README.md`.  
-4. Paste the full template above.  
-5. Commit the file to your repo (on a branch, not directly to `main`).  
-6. Open a Pull Request → reviewers approve → merge into `main`.
+## Deploy on Vercel
 
----
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-
-Quick Reference Table
-
-| Task                  | Yarn Command          | npm Equivalent        |
-|-----------------------|-----------------------|-----------------------|
-| Install dependencies  | `yarn install`        | `npm install`         |
-| Run dev server        | `yarn dev`            | `npm run dev`         |
-| Start app             | `yarn start`          | `npm start`           |
-| Add a package         | `yarn add <package>`  | `npm install <package>` |
-| Remove a package      | `yarn remove <package>` | `npm uninstall <package>` |
-
-
- 
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
